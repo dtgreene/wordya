@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://scenes/ButtonPrompt/ButtonPrompt.gd" type="Script" id=1]
+
+[node name="ButtonPrompt" type="Node2D"]
+
+script/script = ExtResource( 1 )
+text = ""
+icon_index = 0
+
+

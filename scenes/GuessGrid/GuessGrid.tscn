@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://scenes/GuessGrid/GuessGrid.gd" type="Script" id=1]
+[ext_resource path="res://scenes/WordLoader/WordLoader.tscn" type="PackedScene" id=2]
+
+[node name="GuessGrid" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="WordLoader" parent="." instance=ExtResource( 2 )]
+
+file_path = "res://assets/AllWords.txt"
+
+

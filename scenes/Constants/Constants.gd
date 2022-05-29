@@ -1,0 +1,13 @@
+enum GuessResults {
+	NOT_FOUND,
+	WRONG_POSITION,
+	CORRECT
+}
+
+enum GameResults {
+	NONE,
+	WIN_ONLINE,
+	LOSE_ONLINE,
+	WIN_OFFLINE,
+	LOSE_OFFLINE
+}
